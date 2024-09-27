@@ -1,0 +1,10 @@
+﻿{
+  "applications": {
+    "Qa.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44397",
+      "path": "../../../src/Qa.Web/Qa.Web.csproj",
+      "kubernetesService": ".*-web$"
+    }
+  }
+}
